@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Nav from './components/Nav';
-import Hero from './components/hero';
-import Product from './components/product';
-import Contact from './components/contact';
-import Footer from './components/footer';
+import Hero from './components/Hero';
+import Product from './components/Product';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 import See from './components/See';
 
 function App() {
