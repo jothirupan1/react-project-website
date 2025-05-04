@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-//import Nav from './component/Nav';
-import Hero from './component/hero';
-import Product from './component/product';
-import Contact from './component/contact';
-import Footer from './component/footer';
-import See from './component/See';
+import Nav from './components/Nav';
+import Hero from './components/hero';
+import Product from './components/product';
+import Contact from './components/contact';
+import Footer from './components/footer';
+import See from './components/See';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
           path="/"
           element={
             <div>
-              {/* <Nav /> */}
+              <Nav />
               <Hero />
               <Product />
               <Contact />
