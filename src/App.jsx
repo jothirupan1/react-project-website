@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Nav from './component/nav';
-import Hero from './component/hero';
-import Product from './component/product';
-import Contact from './component/contact';
-import Footer from './component/footer';
-import See from './component/See';
+import Nav from 'src/component/Nav';
+import Hero from 'src/component/hero';
+import Product from 'src/component/product';
+import Contact from 'src/component/contact';
+import Footer from 'src/component/footer';
+import See from 'src/component/See';
 
 function App() {
   return (
