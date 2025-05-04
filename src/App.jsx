@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Nav from './component/Nav';
+//import Nav from './component/Nav';
 import Hero from './component/hero';
 import Product from './component/product';
 import Contact from './component/contact';
@@ -14,7 +14,7 @@ function App() {
           path="/"
           element={
             <div>
-              <Nav />
+              {/* <Nav /> */}
               <Hero />
               <Product />
               <Contact />
